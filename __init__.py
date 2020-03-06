@@ -26,7 +26,7 @@ class FalsePositive(MycroftSkill):
             
             self.speak_dialog('false-positve.dialog')
         else:
-            self.speak_dialog('no_recording.dialog')
+            self.speak_dialog('no-recording.dialog')
 
 
     def handle_listener_started(self, message):
