@@ -1,22 +1,22 @@
-# <img src="https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/dog.svg" card_color="#40DBB0" width="50" height="50" style="vertical-align:bottom"/> Bark
-Barks like a dog
-
+# False Positive
 ## About
-Ask mycroft to bark and it will say ruff
+This is to be used when trying to increase the accuracy of a wake word through retraining. If, in mycroft.conf, you have
+    "save_wake_words": true,
+    "record_wake_words": true
+it will take the last recording and move it into a subdirectory of save_path called "not-wake-word"
 
 ## Examples
-* "Bark"
-* "What does a dog say"
-* "Look at that cat"
-* "Mailman is here"
+* "That was a false positive"
+* "You should not have woken up"
 
 ## Credits
-Bret Padres
+Bret Padres (for making a simple skill usable as an outline)
+Adam (just converted it into something totally different)
 
 ## Category
-**Daily**
+**Debugging**
 
 ## Tags
-#Dog
-#Bark
+#wake-word
+#listener
 
