@@ -1,4 +1,4 @@
-# False Positive
+# False Positive Skill
 ## About
 This is to be used when trying to increase the accuracy of a wake word through retraining. If, in mycroft.conf, you have
     "save_wake_words": true,
