@@ -1,0 +1,46 @@
+{
+    "skillMetadata": {
+        "sections": [
+            {
+            "name": "Custom Commands",
+            "fields": [
+                {
+                    "type": "label",
+                    "value": "",
+                    "label": "This will allow you to run terminal commands through mycroft. The format is as follows: <br>What you want to say to activate the skill : terminal command"
+                },
+                {
+                    "name": "custom command 1",
+                    "type": "text",
+                    "label": "Intent : Command (Bash)",
+                    "value": ""
+                },
+                {
+                    "name": "custom command 2",
+                    "type": "text",
+                    "label": "Intent : Command (Bash)",
+                    "value": ""
+                },
+                {
+                    "name": "custom command 3",
+                    "type": "text",
+                    "label": "Intent : Command (Bash)",
+                    "value": ""
+                },
+                {
+                    "name": "custom command 4",
+                    "type": "text",
+                    "label": "Intent : Command (Bash)",
+                    "value": ""
+                },
+                {
+                    "name": "custom command 5",
+                    "type": "text",
+                    "label": "Intent : Command (Bash)",
+                    "value": ""
+                }
+        ]
+      }
+    ]
+  }
+}
