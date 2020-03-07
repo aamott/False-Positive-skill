@@ -17,7 +17,6 @@ class FalsePositive(MycroftSkill):
 
     @intent_file_handler('false-positive.intent')
     def handle_false_positive(self, message):
-        # move file to subdirectory
         if os.path.exists(self.filepath):
             filename = os.path.basename(self.filepath)
             directory = os.path.dirname(self.filepath)
