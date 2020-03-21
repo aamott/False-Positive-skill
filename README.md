@@ -1,6 +1,7 @@
 # False Positive Skill - ONLY WORKS WITH MODIFIED MYCROFT-CORE CODE
 ## About
 This skill will only work if lines 547-573 of ~/mycroft-core/mycroft/client/speech/mic.py read:
+```
                 # Save positive wake words as appropriate
                 if said_wake_word:
                     SessionManager.touch()
@@ -28,6 +29,7 @@ This skill will only work if lines 547-573 of ~/mycroft-core/mycroft/client/spee
                         payload["filepath"] = fn
 
                     emitter.emit("recognizer_loop:wakeword", payload)
+```
 These lines add the file path of any wakeword recordings to the message sent by the listener. Without this, there is no way to see what the last file written was. 
 This is to be used when trying to increase the accuracy of a wake word through retraining. If, in mycroft.conf, you have
     "save_wake_words": true,
