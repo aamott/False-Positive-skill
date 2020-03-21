@@ -41,7 +41,7 @@ it will take the last recording and move it into a subdirectory of save_path cal
 * "You should not have woken up"
 
 ## Credits
-Bret Padres (for making a simple skill usable as an outline)
+Bret Padres (for making a simple skill usable as an outline)  
 Adam (just converted it into something totally different)
 
 ## Category
